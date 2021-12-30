@@ -12,6 +12,7 @@
         h2 {margin-left: 20px}
         p {margin-left: 40px; margin-right: 40px; overflow-wrap: normal; width: auto;}
         #about {width: 100%}
+        th {width: 25%;}
         button {background-color: #223969; border: 2px solid #223969; color:white; padding: 10px 24px; float: left; border-radius: 5px; }
         button:hover {background-color: #eff5f9; border: 2px solid #223969; border-radius: 5px; padding: 10px 24px; color: #223969}
     </style>
@@ -30,26 +31,51 @@
             <p>In my free time, I enjoy taking my puppy to dog parks and hiking trails, traveling to new places, listening to podcasts, and researching sustainable and ethical beauty and clothing brands.</p><br>
     </div>
     
-    <div id="skills" style='position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; display: grid; grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); grid-auto-rows: auto; grid-gap: 30px'>
+    <div id="skills">
+    <!-- style='position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; display: grid; grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); grid-auto-rows: auto; grid-gap: 30px'> -->
         <h2>skills</h2>
-            <table>
+            <table  style='width: 100%; display: fixed; max-height: 200px; padding: 10px;'>
                 <tr id='line-one'>
-                    <th><img src='pictures/java.png' alt='Java'><br>JAVA</th>
-                    <th><img src='pictures/PostgreSQL.png.crdownload' alt='PostgreSQL'><br>POSTGRESQL</th>
-                    <th><img src='pictures/Postman.png' alt='Postman'><br>POSTMAN</th>
-                    <th><img src='pictures/Junit.png' alt='JUnit'><br>JUNIT</th>
+                    <th><img src='pictures/java.png' alt='Java'></th>
+                    <th><img src='pictures/PostgreSQL.png.crdownload' alt='PostgreSQL'></th>
+                    <th><img src='pictures/Postman.png' alt='Postman'></th>
+                    <th><img src='pictures/Junit.png' alt='JUnit'></th>
+                </tr>
+                <tr>
+                    <th>JAVA</th>
+                    <th>POSTGRESQL</th>
+                    <th>POSTMAN</th>
+                    <th>JUNIT</th>
+                </tr>
+                <tr>
+                    <td style='color: #eff5f9'>blank</td>
                 </tr>
                 <tr id='line-two'>
-                    <th><img style='height: 60px' src='pictures/Node.png' alt='Node.js'><br>NODE</th>
-                    <th><img src='pictures/Javascript.png' alt='Javascript'><br>JAVASCRIPT</th>
-                    <th><img src='pictures/CSS.png' alt='CSS3'><br>CSS</th>
-                    <th><img src='pictures/HTML.png' alt='HTML'><br>HTML</th>
+                    <th><img src='pictures/Javascript.png' alt='Javascript'></th>
+                    <th><img src='pictures/CSS.png' alt='CSS3'></th>
+                    <th><img src='pictures/HTML.png' alt='HTML'></th>
+                    <th><img style='height: 60px' src='pictures/Express.png' alt='Express.js'></th>
+                </tr>
+                <tr>
+                    <th>JAVASCRIPT</th>
+                    <th>CSS</th>
+                    <th>HTML</th>
+                    <th>EXPRESS</th>
+                </tr>
+                <tr>
+                    <td style='color: #eff5f9'>blank</td>
                 </tr>
                 <tr id='line-three'>
-                    <th><img style='height: 60px' src='pictures/Express.png' alt='Express.js'><br>EXPRESS</th>
-                    <th><img style='height: 40px' src='pictures/Axios.png' alt='Axios'><br>AXIOS</th>
-                    <th><img style='height: 60px' src='pictures/Rollbar.png' alt='Rollbar'><br>ROLLBAR</th>
-                    <th><img src='pictures/Heroku.png' alt='Heroku'><br>HEROKU</th>
+                    <th><img style='height: 60px' src='pictures/Node.png' alt='Node.js'></th>
+                    <th><img style='height: 40px' src='pictures/Axios.png' alt='Axios'></th>
+                    <th><img style='height: 60px' src='pictures/Rollbar.png' alt='Rollbar'></th>
+                    <th><img src='pictures/Heroku.png' alt='Heroku'></th>
+                </tr>
+                <tr>
+                    <th>NODE</th>
+                    <th>AXIOS</th>
+                    <th>ROLLBAR</th>
+                    <th>HEROKU</th>
                 </tr>
             </table>
     </div><br>

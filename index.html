@@ -20,8 +20,9 @@
         th {width: 25%;}
         .blank-row {color: #eff5f9;}
         .projects {position: relative; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;}
-        button {background-color: #223969; border: 2px solid #223969; color:white; padding: 10px 24px; float: left; display: flex; justify-content: center;}
-        button:hover {background-color: #eff5f9; border: 2px solid #223969; padding: 10px 24px; color: #223969;}
+        .buttons {display: flex; justify-content: center; align-items: center; margin: 0 auto;}
+        button {background-color: #223969; border: 2px solid #223969; color:white; padding: 8px 20px;}
+        button:hover {background-color: #eff5f9; border: 2px solid #223969; padding: 8px 20px; color: #223969;}
         video {height: 400px; border: 3px solid #223969; border-radius: 5px;}
     </style>
 </head>
@@ -135,8 +136,10 @@
                         <source src="pictures/Travel_Diary_Demo.mp4" type="video/mp4"> 
                     </video> 
                     <p>This app is great for people who love to travel! It allows you to add entries to keep track of the cities you've been to and add more as you go!</p>
+                    <div class="buttons">
                         <button onclick="window.location.href='https://travel-diary-lh.herokuapp.com/'; target='_blank'">Try it out yourself</button>
                         <button onclick="window.location.href='https://github.com/Laura-Hassert/foundations-project'; target='_blank'">Check out my code</button>
+                    </div>
             </div>
     </div><br>
     
